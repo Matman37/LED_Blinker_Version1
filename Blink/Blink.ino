@@ -1,11 +1,11 @@
-
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(3, OUTPUT);
+  #define grueneLED 3
 }
 
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH); 
+  digitalWrite(grueneLED, HIGH); 
   delay(1000);                  
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(grueneLED, LOW);
   delay(1000);                       
 }
